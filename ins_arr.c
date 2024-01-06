@@ -17,7 +17,46 @@ void printList(ListNodePtr currentPtr);
 void instructions();
 
 int main(){
+    ListNodePtr startPtr = NULL;
+    unsigned int choice;
+    char item;
 
+    instructions();
+    printf("%s", "? ");
+    scanf("%u", &choice);
+
+    while (choice != 3){
+        switch (choice) {
+            case 1:
+                printf("%s", "Enter a character: ");
+                scanf("\n%c", &item);
+                insert(&startPtr, item);
+                printList(startPtr);
+                break;
+            case 2:
+                if(!isEmpty(startPtr)){
+                    printf("%s", "Enter character to be deleted: ");
+                    scanf("\n%c", &item);
+
+                    if(delete(&startPtr, item)){
+                        printf("%c deleted.\n", item);
+                        printList(startPtr);
+                    }else{
+                        printf("%c not foud.\n\n", item);
+                    }
+                }else{
+                    puts("List is empty.\n");
+                }
+                break;
+            default:
+                puts("Invalid choice.\n");
+                instructions();
+                break;
+        }
+        printf("%s", "? ");
+        scanf("%u", &choice);
+    }
+    puts("End of run.");
 }
 
 void insert(ListNodePtr *sPtr, char value)
