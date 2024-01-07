@@ -6,4 +6,5 @@ set(CMAKE_C_STANDARD 11)
 include_directories(.)
 
 add_executable(fig12_03
-        ins_arr.c)
+        ins_arr.c
+        f12_03_1/stackExample.c)
