@@ -7,4 +7,10 @@ include_directories(.)
 
 add_executable(fig12_03
         ins_arr.c
-        f12_03_1/stackExample.c)
+        f12_03_1/stackExample.c
+        queue/que.c
+        tree/threeTmp.c
+        tree/threeTmp.c
+        tree/threeTmp.c
+        sort_choice/sortChoice.c
+        sort_choice/sortChoice.c)
