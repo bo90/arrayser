@@ -13,4 +13,7 @@ add_executable(fig12_03
         tree/threeTmp.c
         tree/threeTmp.c
         sort_choice/sortChoice.c
-        sort_choice/sortChoice.c)
+        sort_choice/sortChoice.c
+        libs/Item.h
+        arrayReader/ar.c
+)

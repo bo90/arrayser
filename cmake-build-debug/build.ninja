@@ -84,6 +84,13 @@ build CMakeFiles/fig12_03.dir/sort_choice/sortChoice.c.o: C_COMPILER__fig12_03_u
   OBJECT_DIR = CMakeFiles/fig12_03.dir
   OBJECT_FILE_DIR = CMakeFiles/fig12_03.dir/sort_choice
 
+build CMakeFiles/fig12_03.dir/arrayReader/ar.c.o: C_COMPILER__fig12_03_unscanned_Debug /Users/user/Desktop/Proj/CProj/LessC/ch12/fig12_03/arrayReader/ar.c || cmake_object_order_depends_target_fig12_03
+  DEP_FILE = CMakeFiles/fig12_03.dir/arrayReader/ar.c.o.d
+  FLAGS = -g -std=gnu11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -fcolor-diagnostics
+  INCLUDES = -I/Users/user/Desktop/Proj/CProj/LessC/ch12/fig12_03/.
+  OBJECT_DIR = CMakeFiles/fig12_03.dir
+  OBJECT_FILE_DIR = CMakeFiles/fig12_03.dir/arrayReader
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target fig12_03
@@ -92,7 +99,7 @@ build CMakeFiles/fig12_03.dir/sort_choice/sortChoice.c.o: C_COMPILER__fig12_03_u
 #############################################
 # Link the executable fig12_03
 
-build fig12_03: C_EXECUTABLE_LINKER__fig12_03_Debug CMakeFiles/fig12_03.dir/ins_arr.c.o CMakeFiles/fig12_03.dir/f12_03_1/stackExample.c.o CMakeFiles/fig12_03.dir/queue/que.c.o CMakeFiles/fig12_03.dir/tree/threeTmp.c.o CMakeFiles/fig12_03.dir/sort_choice/sortChoice.c.o
+build fig12_03: C_EXECUTABLE_LINKER__fig12_03_Debug CMakeFiles/fig12_03.dir/ins_arr.c.o CMakeFiles/fig12_03.dir/f12_03_1/stackExample.c.o CMakeFiles/fig12_03.dir/queue/que.c.o CMakeFiles/fig12_03.dir/tree/threeTmp.c.o CMakeFiles/fig12_03.dir/sort_choice/sortChoice.c.o CMakeFiles/fig12_03.dir/arrayReader/ar.c.o
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk
   OBJECT_DIR = CMakeFiles/fig12_03.dir
   POST_BUILD = :
