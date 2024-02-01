@@ -7,11 +7,14 @@ include_directories(.)
 
 add_executable(fig12_03
         ins_arr.c
-        f12_03_1/stackExample.c
+        m_l/stackExample.c
         queue/que.c
         tree/threeTmp.c
         tree/threeTmp.c
         tree/threeTmp.c
         sort_choice/sortChoice.c
         sort_choice/sortChoice.c
-        firstStep/stackStep.c)
+        firstStep/stackStep.c
+        libs/equalent/UF.h
+        UnionPr/uinonClient.c
+        UnionPr/unionFind.c)

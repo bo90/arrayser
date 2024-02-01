@@ -6,8 +6,8 @@
 #include <string.h>
 #include <time.h>
 #include <stdlib.h>
-#include "libs/Item.h"
-#include "libs/Stack.h"
+#include "libs/stackLib/Item.h"
+#include "libs/stackLib/Stack.h"
 
 int main(){
     srand(time(NULL));
