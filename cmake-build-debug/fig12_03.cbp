@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="fig12_03"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="E:/Projects/С_proj/arrayser/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="F:/Soft/CLIon/CLion 2023.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;E:/Projects/С_proj/arrayser/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="F:/Soft/CLIon/CLion 2023.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;E:/Projects/С_proj/arrayser/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="F:/Soft/CLIon/CLion 2023.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;E:/Projects/С_proj/arrayser/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="F:/Soft/CLIon/CLion 2023.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;E:/Projects/С_proj/arrayser/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="fig12_03">
+				<Option output="E:/Projects/С_proj/arrayser/cmake-build-debug/fig12_03.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/Projects/С_proj/arrayser/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="E:/Projects/С_proj/arrayser/."/>
+					<Add directory="F:/Soft/CLIon/CLion 2023.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include"/>
+					<Add directory="F:/Soft/CLIon/CLion 2023.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include"/>
+					<Add directory="F:/Soft/CLIon/CLion 2023.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed"/>
+					<Add directory="F:/Soft/CLIon/CLion 2023.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="F:/Soft/CLIon/CLion 2023.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;E:/Projects/С_proj/arrayser/cmake-build-debug/Makefile&quot;  VERBOSE=1 fig12_03"/>
+					<CompileFile command="F:/Soft/CLIon/CLion 2023.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;E:/Projects/С_proj/arrayser/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="F:/Soft/CLIon/CLion 2023.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;E:/Projects/С_proj/arrayser/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="F:/Soft/CLIon/CLion 2023.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;E:/Projects/С_proj/arrayser/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="fig12_03/fast">
+				<Option output="E:/Projects/С_proj/arrayser/cmake-build-debug/fig12_03.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/Projects/С_proj/arrayser/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="E:/Projects/С_proj/arrayser/."/>
+					<Add directory="F:/Soft/CLIon/CLion 2023.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include"/>
+					<Add directory="F:/Soft/CLIon/CLion 2023.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include"/>
+					<Add directory="F:/Soft/CLIon/CLion 2023.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed"/>
+					<Add directory="F:/Soft/CLIon/CLion 2023.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="F:/Soft/CLIon/CLion 2023.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;E:/Projects/С_proj/arrayser/cmake-build-debug/Makefile&quot;  VERBOSE=1 fig12_03/fast"/>
+					<CompileFile command="F:/Soft/CLIon/CLion 2023.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;E:/Projects/С_proj/arrayser/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="F:/Soft/CLIon/CLion 2023.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;E:/Projects/С_proj/arrayser/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="F:/Soft/CLIon/CLion 2023.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;E:/Projects/С_proj/arrayser/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="E:/Projects/С_proj/arrayser/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="F:/Soft/CLIon/CLion 2023.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;E:/Projects/С_proj/arrayser/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="F:/Soft/CLIon/CLion 2023.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;E:/Projects/С_proj/arrayser/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="F:/Soft/CLIon/CLion 2023.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;E:/Projects/С_proj/arrayser/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="F:/Soft/CLIon/CLion 2023.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;E:/Projects/С_proj/arrayser/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="E:/Projects/С_proj/arrayser/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="F:/Soft/CLIon/CLion 2023.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;E:/Projects/С_proj/arrayser/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="F:/Soft/CLIon/CLion 2023.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;E:/Projects/С_proj/arrayser/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="F:/Soft/CLIon/CLion 2023.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;E:/Projects/С_proj/arrayser/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="F:/Soft/CLIon/CLion 2023.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;E:/Projects/С_proj/arrayser/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="E:/Projects/С_proj/arrayser/UnionPr/uinonClient.c">
+			<Option target="fig12_03"/>
+		</Unit>
+		<Unit filename="E:/Projects/С_proj/arrayser/UnionPr/unionFind.c">
+			<Option target="fig12_03"/>
+		</Unit>
+		<Unit filename="E:/Projects/С_proj/arrayser/cmpl/cmpl.c">
+			<Option target="fig12_03"/>
+		</Unit>
+		<Unit filename="E:/Projects/С_proj/arrayser/cmpl/cmplx.h">
+			<Option target="fig12_03"/>
+		</Unit>
+		<Unit filename="E:/Projects/С_proj/arrayser/firstStep/stackStep.c">
+			<Option target="fig12_03"/>
+		</Unit>
+		<Unit filename="E:/Projects/С_proj/arrayser/ins_arr.c">
+			<Option target="fig12_03"/>
+		</Unit>
+		<Unit filename="E:/Projects/С_proj/arrayser/libs/equalent/UF.h">
+			<Option target="fig12_03"/>
+		</Unit>
+		<Unit filename="E:/Projects/С_proj/arrayser/m_l/stackExample.c">
+			<Option target="fig12_03"/>
+		</Unit>
+		<Unit filename="E:/Projects/С_proj/arrayser/queue/que.c">
+			<Option target="fig12_03"/>
+		</Unit>
+		<Unit filename="E:/Projects/С_proj/arrayser/sort_choice/sortChoice.c">
+			<Option target="fig12_03"/>
+		</Unit>
+		<Unit filename="E:/Projects/С_proj/arrayser/tree/threeTmp.c">
+			<Option target="fig12_03"/>
+		</Unit>
+		<Unit filename="E:/Projects/С_proj/arrayser/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

@@ -17,4 +17,12 @@ add_executable(fig12_03
         firstStep/stackStep.c
         libs/equalent/UF.h
         UnionPr/uinonClient.c
-        UnionPr/unionFind.c)
+        UnionPr/unionFind.c
+        cmpl/cmplx.h
+        cmpl/cmplx.h
+        cmpl/cmplx.h
+        cmpl/cmpl.c
+        cmpl/cmpl.c
+        cmpl/cmpl.c
+        cmpl/cmpl.c
+        cmpl/cmpl.c)
