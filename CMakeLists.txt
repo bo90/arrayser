@@ -25,4 +25,8 @@ add_executable(fig12_03
         cmpl/cmpl.c
         cmpl/cmpl.c
         cmpl/cmpl.c
-        cmpl/cmpl.c)
+        cmpl/cmpl.c
+        cmpl/cmpl_tmp.h
+        Poly/Poly.h
+        Poly/poly_init.c
+        Poly/poly_main.c)

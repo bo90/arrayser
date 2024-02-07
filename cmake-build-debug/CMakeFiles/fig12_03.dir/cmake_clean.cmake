@@ -1,4 +1,8 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/fig12_03.dir/Poly/poly_init.c.obj"
+  "CMakeFiles/fig12_03.dir/Poly/poly_init.c.obj.d"
+  "CMakeFiles/fig12_03.dir/Poly/poly_main.c.obj"
+  "CMakeFiles/fig12_03.dir/Poly/poly_main.c.obj.d"
   "CMakeFiles/fig12_03.dir/UnionPr/uinonClient.c.obj"
   "CMakeFiles/fig12_03.dir/UnionPr/uinonClient.c.obj.d"
   "CMakeFiles/fig12_03.dir/UnionPr/unionFind.c.obj"

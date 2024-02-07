@@ -128,6 +128,54 @@ fig12_03/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\fig12_03.dir\build.make CMakeFiles/fig12_03.dir/build
 .PHONY : fig12_03/fast
 
+Poly/poly_init.obj: Poly/poly_init.c.obj
+.PHONY : Poly/poly_init.obj
+
+# target to build an object file
+Poly/poly_init.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\fig12_03.dir\build.make CMakeFiles/fig12_03.dir/Poly/poly_init.c.obj
+.PHONY : Poly/poly_init.c.obj
+
+Poly/poly_init.i: Poly/poly_init.c.i
+.PHONY : Poly/poly_init.i
+
+# target to preprocess a source file
+Poly/poly_init.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\fig12_03.dir\build.make CMakeFiles/fig12_03.dir/Poly/poly_init.c.i
+.PHONY : Poly/poly_init.c.i
+
+Poly/poly_init.s: Poly/poly_init.c.s
+.PHONY : Poly/poly_init.s
+
+# target to generate assembly for a file
+Poly/poly_init.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\fig12_03.dir\build.make CMakeFiles/fig12_03.dir/Poly/poly_init.c.s
+.PHONY : Poly/poly_init.c.s
+
+Poly/poly_main.obj: Poly/poly_main.c.obj
+.PHONY : Poly/poly_main.obj
+
+# target to build an object file
+Poly/poly_main.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\fig12_03.dir\build.make CMakeFiles/fig12_03.dir/Poly/poly_main.c.obj
+.PHONY : Poly/poly_main.c.obj
+
+Poly/poly_main.i: Poly/poly_main.c.i
+.PHONY : Poly/poly_main.i
+
+# target to preprocess a source file
+Poly/poly_main.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\fig12_03.dir\build.make CMakeFiles/fig12_03.dir/Poly/poly_main.c.i
+.PHONY : Poly/poly_main.c.i
+
+Poly/poly_main.s: Poly/poly_main.c.s
+.PHONY : Poly/poly_main.s
+
+# target to generate assembly for a file
+Poly/poly_main.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\fig12_03.dir\build.make CMakeFiles/fig12_03.dir/Poly/poly_main.c.s
+.PHONY : Poly/poly_main.c.s
+
 UnionPr/uinonClient.obj: UnionPr/uinonClient.c.obj
 .PHONY : UnionPr/uinonClient.obj
 
@@ -353,6 +401,12 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... fig12_03
+	@echo ... Poly/poly_init.obj
+	@echo ... Poly/poly_init.i
+	@echo ... Poly/poly_init.s
+	@echo ... Poly/poly_main.obj
+	@echo ... Poly/poly_main.i
+	@echo ... Poly/poly_main.s
 	@echo ... UnionPr/uinonClient.obj
 	@echo ... UnionPr/uinonClient.i
 	@echo ... UnionPr/uinonClient.s

@@ -8,6 +8,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "E:/Projects/С_proj/arrayser/Poly/poly_init.c" "CMakeFiles/fig12_03.dir/Poly/poly_init.c.obj" "gcc" "CMakeFiles/fig12_03.dir/Poly/poly_init.c.obj.d"
+  "E:/Projects/С_proj/arrayser/Poly/poly_main.c" "CMakeFiles/fig12_03.dir/Poly/poly_main.c.obj" "gcc" "CMakeFiles/fig12_03.dir/Poly/poly_main.c.obj.d"
   "E:/Projects/С_proj/arrayser/UnionPr/uinonClient.c" "CMakeFiles/fig12_03.dir/UnionPr/uinonClient.c.obj" "gcc" "CMakeFiles/fig12_03.dir/UnionPr/uinonClient.c.obj.d"
   "E:/Projects/С_proj/arrayser/UnionPr/unionFind.c" "CMakeFiles/fig12_03.dir/UnionPr/unionFind.c.obj" "gcc" "CMakeFiles/fig12_03.dir/UnionPr/unionFind.c.obj.d"
   "E:/Projects/С_proj/arrayser/cmpl/cmpl.c" "CMakeFiles/fig12_03.dir/cmpl/cmpl.c.obj" "gcc" "CMakeFiles/fig12_03.dir/cmpl/cmpl.c.obj.d"

@@ -203,6 +203,36 @@ CMakeFiles/fig12_03.dir/cmpl/cmpl.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/fig12_03.dir/cmpl/cmpl.c.s"
 	"F:\Soft\CLIon\CLion 2023.3.2\bin\mingw\bin\gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\Projects\С_proj\arrayser\cmpl\cmpl.c -o CMakeFiles\fig12_03.dir\cmpl\cmpl.c.s
 
+CMakeFiles/fig12_03.dir/Poly/poly_init.c.obj: CMakeFiles/fig12_03.dir/flags.make
+CMakeFiles/fig12_03.dir/Poly/poly_init.c.obj: CMakeFiles/fig12_03.dir/includes_C.rsp
+CMakeFiles/fig12_03.dir/Poly/poly_init.c.obj: E:/Projects/С_proj/arrayser/Poly/poly_init.c
+CMakeFiles/fig12_03.dir/Poly/poly_init.c.obj: CMakeFiles/fig12_03.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\Projects\С_proj\arrayser\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/fig12_03.dir/Poly/poly_init.c.obj"
+	"F:\Soft\CLIon\CLion 2023.3.2\bin\mingw\bin\gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/fig12_03.dir/Poly/poly_init.c.obj -MF CMakeFiles\fig12_03.dir\Poly\poly_init.c.obj.d -o CMakeFiles\fig12_03.dir\Poly\poly_init.c.obj -c E:\Projects\С_proj\arrayser\Poly\poly_init.c
+
+CMakeFiles/fig12_03.dir/Poly/poly_init.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/fig12_03.dir/Poly/poly_init.c.i"
+	"F:\Soft\CLIon\CLion 2023.3.2\bin\mingw\bin\gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\Projects\С_proj\arrayser\Poly\poly_init.c > CMakeFiles\fig12_03.dir\Poly\poly_init.c.i
+
+CMakeFiles/fig12_03.dir/Poly/poly_init.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/fig12_03.dir/Poly/poly_init.c.s"
+	"F:\Soft\CLIon\CLion 2023.3.2\bin\mingw\bin\gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\Projects\С_proj\arrayser\Poly\poly_init.c -o CMakeFiles\fig12_03.dir\Poly\poly_init.c.s
+
+CMakeFiles/fig12_03.dir/Poly/poly_main.c.obj: CMakeFiles/fig12_03.dir/flags.make
+CMakeFiles/fig12_03.dir/Poly/poly_main.c.obj: CMakeFiles/fig12_03.dir/includes_C.rsp
+CMakeFiles/fig12_03.dir/Poly/poly_main.c.obj: E:/Projects/С_proj/arrayser/Poly/poly_main.c
+CMakeFiles/fig12_03.dir/Poly/poly_main.c.obj: CMakeFiles/fig12_03.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\Projects\С_proj\arrayser\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/fig12_03.dir/Poly/poly_main.c.obj"
+	"F:\Soft\CLIon\CLion 2023.3.2\bin\mingw\bin\gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/fig12_03.dir/Poly/poly_main.c.obj -MF CMakeFiles\fig12_03.dir\Poly\poly_main.c.obj.d -o CMakeFiles\fig12_03.dir\Poly\poly_main.c.obj -c E:\Projects\С_proj\arrayser\Poly\poly_main.c
+
+CMakeFiles/fig12_03.dir/Poly/poly_main.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/fig12_03.dir/Poly/poly_main.c.i"
+	"F:\Soft\CLIon\CLion 2023.3.2\bin\mingw\bin\gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\Projects\С_proj\arrayser\Poly\poly_main.c > CMakeFiles\fig12_03.dir\Poly\poly_main.c.i
+
+CMakeFiles/fig12_03.dir/Poly/poly_main.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/fig12_03.dir/Poly/poly_main.c.s"
+	"F:\Soft\CLIon\CLion 2023.3.2\bin\mingw\bin\gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\Projects\С_proj\arrayser\Poly\poly_main.c -o CMakeFiles\fig12_03.dir\Poly\poly_main.c.s
+
 # Object files for target fig12_03
 fig12_03_OBJECTS = \
 "CMakeFiles/fig12_03.dir/ins_arr.c.obj" \
@@ -213,7 +243,9 @@ fig12_03_OBJECTS = \
 "CMakeFiles/fig12_03.dir/firstStep/stackStep.c.obj" \
 "CMakeFiles/fig12_03.dir/UnionPr/uinonClient.c.obj" \
 "CMakeFiles/fig12_03.dir/UnionPr/unionFind.c.obj" \
-"CMakeFiles/fig12_03.dir/cmpl/cmpl.c.obj"
+"CMakeFiles/fig12_03.dir/cmpl/cmpl.c.obj" \
+"CMakeFiles/fig12_03.dir/Poly/poly_init.c.obj" \
+"CMakeFiles/fig12_03.dir/Poly/poly_main.c.obj"
 
 # External object files for target fig12_03
 fig12_03_EXTERNAL_OBJECTS =
@@ -227,11 +259,13 @@ fig12_03.exe: CMakeFiles/fig12_03.dir/firstStep/stackStep.c.obj
 fig12_03.exe: CMakeFiles/fig12_03.dir/UnionPr/uinonClient.c.obj
 fig12_03.exe: CMakeFiles/fig12_03.dir/UnionPr/unionFind.c.obj
 fig12_03.exe: CMakeFiles/fig12_03.dir/cmpl/cmpl.c.obj
+fig12_03.exe: CMakeFiles/fig12_03.dir/Poly/poly_init.c.obj
+fig12_03.exe: CMakeFiles/fig12_03.dir/Poly/poly_main.c.obj
 fig12_03.exe: CMakeFiles/fig12_03.dir/build.make
 fig12_03.exe: CMakeFiles/fig12_03.dir/linkLibs.rsp
 fig12_03.exe: CMakeFiles/fig12_03.dir/objects1.rsp
 fig12_03.exe: CMakeFiles/fig12_03.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=E:\Projects\С_proj\arrayser\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Linking C executable fig12_03.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=E:\Projects\С_proj\arrayser\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Linking C executable fig12_03.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\fig12_03.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

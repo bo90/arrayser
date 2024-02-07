@@ -78,6 +78,15 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="E:/Projects/С_proj/arrayser/Poly/Poly.h">
+			<Option target="fig12_03"/>
+		</Unit>
+		<Unit filename="E:/Projects/С_proj/arrayser/Poly/poly_init.c">
+			<Option target="fig12_03"/>
+		</Unit>
+		<Unit filename="E:/Projects/С_proj/arrayser/Poly/poly_main.c">
+			<Option target="fig12_03"/>
+		</Unit>
 		<Unit filename="E:/Projects/С_proj/arrayser/UnionPr/uinonClient.c">
 			<Option target="fig12_03"/>
 		</Unit>
@@ -85,6 +94,9 @@
 			<Option target="fig12_03"/>
 		</Unit>
 		<Unit filename="E:/Projects/С_proj/arrayser/cmpl/cmpl.c">
+			<Option target="fig12_03"/>
+		</Unit>
+		<Unit filename="E:/Projects/С_proj/arrayser/cmpl/cmpl_tmp.h">
 			<Option target="fig12_03"/>
 		</Unit>
 		<Unit filename="E:/Projects/С_proj/arrayser/cmpl/cmplx.h">
